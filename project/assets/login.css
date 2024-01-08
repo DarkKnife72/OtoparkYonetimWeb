@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,300&family=Poppins:ital,wght@1,400;1,700;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    user-select: none;
+}
+*:focus
+{
+    outline: 0;
+}
+body
+{
+    padding: 50px;
+    overflow: hidden;
+    background-image: url("../assets/images/main-background.png");
+    background-repeat: no-repeat;    
+}
+#container{         
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 5px;    
+    background-color: #fff;
+    padding: 20px;
+}
+
+#login-error
+{
+    text-align: center;
+    padding: 10px; 
+    border: 1px solid transparent;
+    border-radius: 5px;   
+    color: #a94442;
+    background-color: red;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+.input-custom
+{
+    padding: 15px;
+    background-color: rgba(194, 191, 191, 0.479);
+    border-radius: 5px;
+    display: flex;    
+    gap: 10px;
+    align-items: center;
+    color: #000;       
+}
+
+.input-custom:focus
+{
+    border: 1px solid #000;
+}
+
+.input-custom:focus
+{
+    border: 1px solid blue;
+}
+
+.input-custom-icon i
+{
+    font-size: 20pt;
+}
+
+.input-custom input
+{
+    background-color: transparent;
+    border: 0;
+    font-size: 12pt;    
+}
+
+#login-button
+{
+    padding: 20px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    background-color: #2b29b8;
+    color: white;
+    font-size: 15pt;    
+    font-weight: bold;
+    transition: all .3s;
+}
+
+#login-button:hover
+{
+    cursor: pointer;
+    opacity: 0.9;
+}

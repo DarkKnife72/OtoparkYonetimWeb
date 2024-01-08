@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arimo', sans-serif;
+    user-select: none;
+}
+
+*:focus
+{
+    outline: 0;
+}
+
+body
+{
+    background-color: #ccc;
+}
+
+#header
+{
+    padding: 20px;    
+    background-color: #181818;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header-notif:hover
+{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+#header-theme
+{
+    padding: 10px;
+    border-radius: 100%;
+    width: 35px;
+    text-align: center;
+    background-color: #2e2e2e;  
+    position: relative;    
+}
+
+#header-theme:hover
+{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+#header-logout
+{
+    background-color: rgb(250, 60, 26);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#header-logout:hover
+{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#header-avatar
+{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+}
+
+#container
+{    
+    margin-left: 300px;
+}
+
+#left-panel
+{
+    float: left;
+    width: 300px;
+    margin-left: -300px;
+    padding: 10px;
+    float: left;
+    background-color: #fff;    
+    height: 100%;
+    position: fixed;
+}
+
+#left-panel div span
+{    
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.3;    
+    width: 100%;
+}
+
+.left-menu-hover:hover
+{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#vehicle-action-page span
+{
+    margin: 20px;
+}
+
+#vehicle-action-page span:hover
+{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#success-notif
+{    
+    padding: 10px;
+    background-color: #a0e9da;
+    opacity: 0.9;
+    margin: 30px;
+    width: 15%;
+    color: #3da893;
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+}
+
+#succes-notif i:hover
+{
+    cursor: pointer;
+}
+
+#error-notif
+{
+    padding: 10px;
+    background-color: #a11a02;
+    opacity: 0.9;
+    margin: 30px;
+    width: 15%;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+}
+
+#error-notif i:hover
+{
+    cursor: pointer;
+}
+
+#right-panel
+{   
+    float: right;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.right-panel-box
+{
+    background-color: #fff;
+    min-width: 40%;    
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-overflow: ellipsis;
+}
+
+.right-panel-box h3
+{
+    border-bottom: 1px solid #000;
+}
+
+.right-panel-box button
+{
+    padding: 10px;
+    border: 0;
+    background-color: #ccc;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.right-panel-box button:hover
+{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+input
+{
+    padding: 5px;
+    border: 0;
+    background-color: #ccc;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+select
+{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #ccc;
+    border: 0;
+}
